@@ -9,3 +9,20 @@ before_install:
  
 script:
  - docker run -e CI=true vikas/travis npm run test
+
+
+deploy:
+ provider: elasticbeanstalk
+ region: "us-east-2"
+ app: "dockerApp"
+ env: "Dockerapp-env"
+ bucket_name: "elasticbeanstalk-us-east-2-619038546570" 
+ bucket_path: "dockerApp"
+
+
+# http://dockerapp-env.t2k2prwxhx.us-east-2.elasticbeanstalk.com/
+
+
+
+
+
