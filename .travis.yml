@@ -20,13 +20,13 @@ deploy:
  bucket_path: "dockerApp"
 
  on:
-  branch: master
+   branch: master
 
  access_key_id:
-  secure: $AWS_ACCESS_ID
+   secure: $AWS_ACCESS_ID
  
  access_secret_key:
-  secure: $AWS_SECRET_KEY
+   secure: "$AWS_SECRET_KEY"
 
 
 # http://dockerapp-env.t2k2prwxhx.us-east-2.elasticbeanstalk.com/
