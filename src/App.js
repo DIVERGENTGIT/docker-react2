@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-       I was changed like anything!
+       I was changed to test github pull request!
         </p>
         <a
           className="App-link"
